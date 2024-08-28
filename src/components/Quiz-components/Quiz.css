@@ -1,0 +1,55 @@
+
+.container{
+    width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    background: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 40px;
+
+    
+}
+.container hr{
+    height: 2px;
+    border: none;
+    background: rgb(211, 192, 228);
+}
+.container h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+.container ul li{
+   display: flex;
+   align-items: center;
+   height: 50px;
+    padding-left: 10px;
+    border: 1px solid #686868;
+    border-radius: 5px;
+    margin-bottom: 15px;
+
+   
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container button{
+    margin:auto;
+    width:100%;
+    height: 40px;
+    background: rgb(172, 14, 124);
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.container .question-index{
+    margin: auto;
+    font-size: 18px;
+    font-weight: 500;
+}
